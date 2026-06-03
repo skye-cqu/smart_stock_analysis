@@ -1,0 +1,10 @@
+{
+  "_readme": "MCP servers shared across the team. Personal overrides go in .mcp.local.json (gitignored).",
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"],
+      "env": {}
+    }
+  }
+}

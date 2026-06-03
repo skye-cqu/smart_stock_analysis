@@ -1,0 +1,11 @@
+strategies:
+  ma_cross:
+    short_period: 5
+    long_period: 20
+  rsi_oversold:
+    oversold: 30
+    overbought: 70
+    period: 14
+  volume_breakout:
+    volume_ratio: 2.0
+    lookback: 20
